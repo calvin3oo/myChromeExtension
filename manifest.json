@@ -1,0 +1,11 @@
+{
+    "name": "Canvas Shortcuts",
+    "version": "1.0",
+    "description": "Adds custom automations to Canvas to simplify homework submissions.",
+    "manifest_version": 3,
+    "author": "Calvin Olson",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Canvas Shortcuts"
+    }
+}

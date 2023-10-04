@@ -7,5 +7,17 @@
     "action":{
         "default_popup": "index.html",
         "default_title": "Canvas Shortcuts"
+    },
+    "content_scripts":[
+        {
+          "matches":[
+            "<all_urls>"
+          ],
+          "js": ["scripts/script.js"]
+        }
+    ],
+    "permissions": ["offscreen"],
+    "icons": {
+        "128": "icons/canvasRobot.png"
     }
 }

@@ -1,1 +1,0 @@
-(()=>{"use strict";const e=jQuery;window.$=window.jQuery=e.jQuery})();

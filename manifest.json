@@ -16,7 +16,7 @@
           "js": ["dist/scripts/onPagesLoading.js"]
         }
     ],
-    "permissions": ["offscreen"],
+    "permissions": ["offscreen", "tabs", "storage", "activeTab", "declarativeContent", "scripting"],
     "icons": {
         "128": "dist/icons/canvasRobot.png"
     }

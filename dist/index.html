@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <!-- My Script/Styles -->
-    <script src="scripts/index.js"></script>  
+    <script src="scripts/index.js" type="module" defer></script>  
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -15,27 +15,33 @@
     </head>
     <main>
         <div>
-            <h2>
-                Menu:
-            </h2>
-        </div>
-        <div>
-            <button>Copy Quiz Selection</button>
-        </div>
-        <div>
-            <h2>Quiz Submission Formats</h2>
-            <table>
+            <h2>Quizzes:</h2>
+            <table class="quizzes-table">
                 <tr>
-                    <th>Quiz</th>
-                    <th>Preview Format</th>
-                    <th>Schedule</th>
-                </tr>
-                <tr>
-                    <td>Quiz 1</td>
-                    <td>Preview</td>
-                    <td>Schedule</td>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Status</th>
+                    <th>Submit</th>
                 </tr>
             </table>
+            <div>
+                <button>Copy Quiz Selection</button>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h2>Submissions:</h2>
+            <div class="submissions-container">
+                <h3>Submission 1</h3>
+                <table class="submission-table">
+                    <tr>
+                        <th>Question</th>
+                        <th>Answer</th>
+                        <th>Answer Text</th>
+                    </tr>
+                </table>
+            </div>
         </div>
     </main>
     <footer>

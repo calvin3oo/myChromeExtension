@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/chrome": "^0.0.246",
-    "webpack": "^5.88.2"
+    "crypto-browserify": "^3.12.0",
+    "webpack": "^5.89.0"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
